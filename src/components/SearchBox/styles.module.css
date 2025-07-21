@@ -1,0 +1,12 @@
+.input{
+    border: none;
+    border-radius: .15vw;
+    outline: none;
+    background-color: --var(--white);
+    font: var(--base-font);
+    width: 12vw;
+    height: 2vw;
+    font-size: 1vw;
+    display: block;
+    padding: .3vw;
+}

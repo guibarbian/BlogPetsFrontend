@@ -1,0 +1,23 @@
+.like{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin-bottom: -.35vw;
+    width: 1vw;
+    height: 1vw;
+    display: block;
+}
+
+.submit{
+    color: var(--light-gray);
+    background-color: var(--cyan);
+    font: var(--base-font);
+    font-size: 1.2vw;
+    height: auto;
+    width: 15vw;
+    border: none;
+    border-radius: .5vw;
+    cursor: pointer;
+    padding: .8vw;
+}
