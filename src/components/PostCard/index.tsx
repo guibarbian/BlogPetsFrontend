@@ -7,11 +7,11 @@ const PostCard = (props: Post) => {
     const{title, content, likes} = props
   return (
     <li className={styles.list}>
-        <div className={styles.titleHeader}>
-          <a href="/" className={styles.none}>
+        <a href="/" className={styles.none}>
+          <div className={styles.titleHeader}>
             <h3 className={styles.title}>{title}</h3>
-          </a>
-        </div>
+          </div>
+        </a>
         <div className={styles.contentBox}>
           <span>{content}</span>
         </div>

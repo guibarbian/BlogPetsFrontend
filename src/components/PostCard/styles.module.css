@@ -6,7 +6,7 @@
 
 .titleHeader{
     background-color: var(--royal-blue);
-    padding: .1vw .5vw;
+    padding: .1vw .5vw; 
     border-radius: .25vw .25vw 0 0;
     cursor: pointer;
 }
@@ -19,7 +19,8 @@
     font-family: var(--base-font);
     color: var(--white);
     font-size: 2vw;
-    margin: 1vw;
+    padding: 1.5vw .5vw;
+    margin: 0;
 }
 
 .title:hover{
