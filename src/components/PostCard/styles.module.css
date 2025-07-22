@@ -6,16 +6,24 @@
 
 .titleHeader{
     background-color: var(--royal-blue);
-    padding: .5vw .5vw;
+    padding: .1vw .5vw;
     border-radius: .25vw .25vw 0 0;
-    height: 50%;
     cursor: pointer;
+}
+
+.none{
+    text-decoration: none;
 }
 
 .title{
     font-family: var(--base-font);
     color: var(--white);
     font-size: 2vw;
+    margin: 1vw;
+}
+
+.title:hover{
+    color: var(--light-gray);
 }
 
 .contentBox{
@@ -40,7 +48,7 @@
 
 .likesBox h4{
     margin: 0;
-    padding: 0 0 0 .5vw;
+    padding: .15vw 0 0 .5vw;
     font-size: 1vw;
     background-color: transparent;
 }

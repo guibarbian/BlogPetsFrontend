@@ -18,3 +18,13 @@
     justify-items: center;
     font-size: 1vw;
 }
+
+.socials{
+    width: 2vw;
+    padding: 0 .3vw;
+    height: auto;
+}
+
+.socials:hover{
+    transform: scale(1.1);
+}
