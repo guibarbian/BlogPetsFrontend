@@ -1,10 +1,11 @@
-import { FaRegHeart } from "react-icons/fa";
+import { FaRegHeart, FaHeart  } from "react-icons/fa";
 import type { Post } from '../../types';
 import Button from '../Button';
 import styles from './styles.module.css';
 
 const PostCard = (props: Post) => {
-    const{title, content, likes} = props
+    const{title, content, likes, liked} = props
+    
   return (
     <li className={styles.list}>
         <a href="/" className={styles.none}>
@@ -17,7 +18,7 @@ const PostCard = (props: Post) => {
         </div>
         <div className={styles.likesBox}>
           <Button variant='like'>
-            <FaRegHeart className={styles.heart} />
+            {liked ? <FaHeart className={styles.fullHeart} /> : <FaRegHeart className={styles.heart} />}
           </Button>
           <h4>{likes}</h4>
         </div>

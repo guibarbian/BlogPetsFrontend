@@ -59,3 +59,10 @@
     width: 1vw;
     display: block;
 }
+
+.fullHeart{
+    height: auto;
+    width: 1vw;
+    display: block;
+    color: var(--red);
+}
