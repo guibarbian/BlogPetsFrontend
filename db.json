@@ -4,55 +4,64 @@
       "id": 1,
       "title": "Hey, Guys",
       "content": "This is my first post",
-      "likes": 3
+      "likes": 3,
+      "liked": false
     },
     {
       "id": 2,
       "title": "I Miss Net",
       "content": "Best Easter Egg EVER",
-      "likes": 3
+      "likes": 3,
+      "liked": true
     },
     {
       "id": 3,
       "title": "JJK Season 3",
       "content": "What are you expecting for the new season?",
-      "likes": 6
+      "likes": 6,
+      "liked": false
     },
     {
       "id": 4,
       "title": "Morning Vibes",
       "content": "Nothing beats coffee and lo-fi music to start the day.",
-      "likes": 5
+      "likes": 5,
+      "liked": true
     },
     {
       "id": 5,
       "title": "Code Break",
       "content": "Ever just stare at your screen wondering why it doesn't work?",
-      "likes": 7
+      "likes": 7,
+      "liked": true
     },
     {
       "id": 6,
       "title": "Throwback CD",
       "content": "Remember when we used to burn CDs and label them like mixtapes?",
-      "likes": 4
+      "likes": 4,
+      "liked": false
     },
     {
       "id": 7,
       "title": "Fav Framework",
       "content": "React? Vue? Svelte? Let's argue (nicely).",
-      "likes": 9
+      "likes": 9,
+      "liked": true
     },
     {
       "id": 8,
       "title": "Anime Night",
       "content": "Watching the new Bleach episode tonight. Who's in?",
-      "likes": 6
+      "likes": 6,
+      "liked": false
     },
     {
       "id": 9,
       "title": "LoremIpsumTxt",
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam.",
-      "likes": 10
+      "likes": 10,
+      "liked": true
     }
   ]
 }
