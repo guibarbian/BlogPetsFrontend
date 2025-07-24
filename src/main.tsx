@@ -4,9 +4,11 @@ import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import NotFound from './pages/NotFound/index.tsx'
 import { Home } from './pages/index.ts'
+import CreatePost from './pages/CreatePost/CreatePost.tsx'
 
 const router = createBrowserRouter([
   {path:"/", element: <Home />},
+  {path:"/create-post", element: <CreatePost />},
   {path:"*", element:<NotFound />}
 ]);
 

@@ -20,6 +20,7 @@
     border-radius: .5vw;
     cursor: pointer;
     padding: .8vw;
+    display: block;
 }
 
 .submit:hover{

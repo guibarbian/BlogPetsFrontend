@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react'
-import type { Post } from '../types'
+import { useEffect, useState } from 'react'
 import { getPosts } from '../api'
+import type { Post } from '../types'
 
 const useFetchPosts = () => {
     const [posts, setPosts] = useState<Post[]>([])

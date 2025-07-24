@@ -1,3 +1,4 @@
+import { useNavigate } from 'react-router-dom'
 import Button from '../Button'
 import Logo from '../Logo'
 import SearchBox from '../SearchBox'
@@ -6,6 +7,13 @@ import HeaderList from './components/HeaderList'
 import HeaderListItem from './components/HeaderListItem'
 
 const Header = () => {
+
+  const navigate = useNavigate();
+
+  const handleCkick = () => {
+    navigate("/create-post")
+  }
+
   return (
     <header>
         <HeaderList>
@@ -18,9 +26,11 @@ const Header = () => {
             <HeaderListItem>
               <SearchBox placeholder='Search Post' />
             </HeaderListItem>
-            <Button variant='submit'>
-              New Post
-            </Button>
+            <HeaderListItem>
+              <Button onClick={handleCkick} variant='submit'>
+                New Post
+              </Button>
+            </HeaderListItem>
     </HeaderList>
     </header>
   )
