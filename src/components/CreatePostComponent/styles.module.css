@@ -1,46 +1,51 @@
+.body{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    margin-top: 2vw;
+}
+
 .form{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100vw;
-}
-
-.titleHeader{
-    margin-top: 2vw;
+    align-content: center;
     width: 1200px;
     min-width: 50%;
     max-width: 85%;
-    height: 10vw;
-    background-color: var(--royal-blue);
-    border-radius: .25vw .25vw 0 0;
-
-    display: flex;
-    
+    height: auto;
 }
 
-.titleHeader input{
-    width: 100%;
+.titleHeader{
+    min-width: 100%;
+    height: clamp(1.5rem, 6vw, 24rem);
+    background-color: var(--royal-blue);
+    border-radius: .25vw .25vw 0 0;
+    box-sizing: border-box;
+    padding: 1.5vw 0 1.5vw 1vw;
+}
+
+.titleHeader textarea{
     font-family: var(--base-font);
     color: var(--light-gray);
     background-color: transparent;
+    font-size: clamp(.75rem, 3vw, 27rem);
     border: none;
     outline: none;
-    font-size: 4vw;
-    margin-left: 1vw;
+    resize: none;
+    box-sizing: border-box;
     padding: 0;
 }
 
 .contentBox{
+    min-width: 100%;
+    height: clamp(1.5rem, 20vw, 24rem);
     background-color: var(--light-gray);
-    width: 1200px;
-    min-width: 50%;
-    max-width: 85%;
-    height: 300px;
-    min-height: 10%;
-    max-height: 25%;
     font-size: 1.5vw;
-    padding: 1.5vw 0 0 0;
+    padding: .75vw 0 0 .75vw;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     align-items: stretch;
@@ -48,19 +53,28 @@
 }
 
 .contentBox textarea{
-    width: 100%;
     box-sizing: border-box;
     resize: none;
-    overflow: auto;
     word-break: break-all;
-    padding: 0 1.5vw;
-    font-size: 4vw;
+    padding: 0;
+    font-size: clamp(.6rem, 3vw, 8rem);
     line-height: 1.4;
     border: none;
     outline: none;
     background-color: transparent;
     font-family: var(--base-font);
     color: var(--black);
-    justify-content: flex-start;
     field-sizing: content;
+}
+
+.postBox{
+    width: 100%;
+    height: 5vw;
+    background-color: var(--royal-blue);
+    border-radius: .25vw .25vw 0 0;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 2vw;
+    box-sizing: border-box;
 }

@@ -7,7 +7,6 @@ import HeaderList from './components/HeaderList'
 import HeaderListItem from './components/HeaderListItem'
 
 const Header = () => {
-
   const navigate = useNavigate();
 
   const handleCkick = () => {
