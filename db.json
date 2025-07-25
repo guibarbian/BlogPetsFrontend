@@ -62,6 +62,12 @@
       "content": "Remember when we used to burn CDs and label them like mixtapes?",
       "likes": 4,
       "liked": false
+    },
+    {"id": 10,
+      "title": "L",
+      "content": "L",
+      "likes": 0, 
+      "liked": false
     }
   ]
 }
