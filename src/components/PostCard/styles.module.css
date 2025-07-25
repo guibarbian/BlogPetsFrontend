@@ -20,6 +20,7 @@
     color: var(--white);
     font-size: clamp(2rem ,2vw, 6rem);
     margin: 0;
+    word-break: break-all;
 }
 
 .titleHeader h3:hover{

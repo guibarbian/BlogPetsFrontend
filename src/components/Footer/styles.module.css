@@ -1,10 +1,10 @@
 .footer{
     position:relative;
     background-color: var(--light-gray);
-    height: 5vw;
+    height: fit-content;
     width: auto;
     margin-top: 1vw;
-    padding: 1vw 0;
+    padding: 1vw 0 0 0;
     display: flex;
     justify-items: center;
     justify-content: center;
@@ -16,15 +16,19 @@
     align-items: center;
     justify-content: center;
     justify-items: center;
-    font-size: 1vw;
+    font-size: clamp(.4rem, 1vw, 5rem);
+}
+
+.div{
+    display: flex;
+    gap: 1vw;
 }
 
 .socials{
-    width: 2vw;
-    padding: 0 .3vw;
     height: auto;
+    padding-top: .2vw;
+    width: clamp(.5rem, 2vw, 6rem);
 }
-
 .socials:hover{
     transform: scale(1.1);
 }

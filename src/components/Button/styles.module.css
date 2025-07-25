@@ -19,7 +19,7 @@
     border: none;
     border-radius: .5vw;
     cursor: pointer;
-    padding: .8vw;
+    padding: clamp(.08rem, 1vw, 4rem);
     display: block;
 }
 
