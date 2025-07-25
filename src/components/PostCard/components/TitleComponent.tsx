@@ -8,7 +8,7 @@ const TitleComponent = ({title}: titleProps) => {
   return (
     <a href="/" className={styles.none}>
       <div className={styles.titleHeader}>
-        <h3 className={styles.title}>{title}</h3>
+        <h3>{title}</h3>
       </div>
     </a>
   )
